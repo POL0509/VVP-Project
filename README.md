@@ -10,7 +10,7 @@ Tento projekt se zabývá řešením (hledáním nejkratší cesty) a také zák
 Na začátku bude implementována funkce pro načítání bludiště z CSV souboru. Tato funkce bude umět načítat bludiště o libovolném rozměru n * n a uložit ho do paměti v podobě NumPy matice s True/False hodnotami (True = buňka je neprůchozí). Poté bude implementován algoritmus pro hledání nejkratší cesty. Poslední částí bude vytvoření generátoru bludiště za použití algoritmu pro hledání nejkratší cesty.
 
 Výstup bude formou obrázku (černá = neprostupná část, bílá = průchozí, červená = nejkratší cesta).
-## Funcionality
+## Funkcionality
 
 -   Implementovat načítání bludiště z CSV souboru
 -   Implementovat algoritmus pro hledání nejkratší cesty (mezi levým horním rohem a pravým dolním rohem) za použití knihovny NumPy,který bude pracovat v následujících dvou krocích:
