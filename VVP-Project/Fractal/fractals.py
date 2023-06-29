@@ -38,7 +38,7 @@ class Fractals:
 
         self._ax_button = plt.axes([0.08, 0, 0.65, 0.03])
         self._button_update = Button(self._ax_button, 'Update')
-        
+
     def mandelbrot(self, c: complex, k: int) -> int:
         """
         Algorithm that recognizes how many iterations are needed. Used for Mandelbrot set.
@@ -128,7 +128,6 @@ class Fractals:
         Updates plot if changes are made.
         """
         self.plot_fractal()
-        #self.fig.canvas.draw()
 
 
     def show(self):
